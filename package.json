@@ -1,4 +1,14 @@
 {
+  "name": "project-name",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build"
+  },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.2.3",
@@ -50,3 +60,4 @@
     "typescript": "^5.1.6"
   }
 }
+
